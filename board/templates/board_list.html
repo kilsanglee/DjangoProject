@@ -1,0 +1,22 @@
+{% include  'top.html' %}
+<section>
+<br />
+<div align="center">
+<h1> 게시판 목록 보기 </h1>
+<table border="1">
+  <tr><td>id</td><td>title</td><td>content</td><td>today</td><td>count</td></tr>
+    {% for m in li %}
+    <tr><td>{{m.id}}</td>
+        <td><a href="{% url 'board_edit' m.pk %}" >   {{m.title}}   </a> </td>
+        <td>{{m.content}}</td>
+        <td>
+           {{ m.today|date:"Y년m월d일H시i분s초" }}
+        </td>
+        <td>{{m.cnt}}</td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+<br />
+</section>
+{% include  'bottom.html' %}
