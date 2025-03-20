@@ -11,7 +11,7 @@
 
 <h2> 영상을 보시려면 이미지를 클릭해 주세요!!! </h2> 
 
-[![유튜브 동영상](https://img.youtube.com/vi/cgz6o06AQPE/0.jpg)](https://www.youtube.com/watch?v=cgz6o06AQPE)
+[![유튜브 동영상](C:\Users\4545\PycharmProjects\majustory\static\img\d1.PNG)](https://www.youtube.com/watch?v=cgz6o06AQPE)
 
 <br> <br>
 
